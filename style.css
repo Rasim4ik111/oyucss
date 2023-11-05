@@ -7,6 +7,13 @@
   background: var(--Background, black);
   font-family: "SF Pro Display", sans-serif;
 }
+
+body {
+  margin: auto;
+  max-width: 1440px;
+  height: 1024px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -20,21 +27,17 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.navbar .raft_icon {
-  position: absolute;
-  top: 12px;
-  right: 0;
-  bottom: 0;
-  left: 50px;
-}
-
-.navbar .headerUl {
-  margin-left: 100px;
+.headerUl {
   gap: 60px;
-}
-
-.navbar h3 {
-  padding-left: 40px;
+  margin: auto;
+  color: #bdbdbd;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -20px;
 }
 
 .navbar a {
@@ -46,8 +49,8 @@ ul {
   display: flex;
 }
 
-.navbar ul li {
-  margin: 0 10px;
+.ullast {
+  gap: 20px;
 }
 
 .nav_getstarted {
@@ -57,10 +60,6 @@ ul {
   padding: 8px 12px;
   cursor: pointer;
   border: 1px solid #2b892e;
-}
-
-main {
-  position: relative;
 }
 
 .intro {
@@ -80,11 +79,16 @@ main {
   padding: 5px 10px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
+  font-size: 16px;
+  font-weight: 400;
 }
 .intro h1 {
-  font-size: 70px;
+  width: 140%;
   color: #fff;
   text-align: center;
+  font-family: SF Pro Display;
+  font-size: 96px;
+  font-weight: 400;
 }
 
 .intro h2 {
@@ -92,6 +96,7 @@ main {
   text-align: center;
   width: 600px;
   margin-top: 20px;
+  font-weight: 400;
 }
 
 .intro .getstarted {
