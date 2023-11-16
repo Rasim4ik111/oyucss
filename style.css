@@ -10,7 +10,7 @@
 
 body {
   margin: auto;
-  max-width: 1440px;
+  width: 1440px;
   height: 1024px;
 }
 
@@ -25,6 +25,14 @@ ul {
   gap: 431px;
   border-bottom: 0.5px solid #3d3d3d;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+
 }
 
 .headerUl {
@@ -51,6 +59,7 @@ ul {
 
 .ullast {
   gap: 20px;
+  align-items: center;
 }
 
 .nav_getstarted {
@@ -108,4 +117,9 @@ ul {
   margin-top: 20px;
   cursor: pointer;
   border: 1px solid #2b892e;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
 }
